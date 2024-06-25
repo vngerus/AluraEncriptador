@@ -1,0 +1,156 @@
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    text-align: left;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-top: 10px;
+    flex: 1;
+    max-width: 1000px; 
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.left-section, .right-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1; 
+    max-width: 60%; 
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.text-area {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    resize: none;
+}
+
+.informacion {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.boton-encriptar, .boton-desencriptar, .boton-limpiar {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.boton-encriptar {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.boton-encriptar:hover {
+    background-color: #0b5ed7;
+}
+
+.boton-desencriptar {
+    background-color: #6c757d;
+    color: white;
+}
+
+.boton-desencriptar:hover {
+    background-color: #5b636a;
+}
+
+.boton-limpiar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.boton-limpiar:hover {
+    background-color: #c82333;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%; 
+    height: auto; 
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+.right-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mensaje-container {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #f0f4f8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 14px;
+}
